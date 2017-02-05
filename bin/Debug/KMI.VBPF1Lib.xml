@@ -1,0 +1,1767 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KMI.VBPF1Lib</name>
+    </assembly>
+    <members>
+        <member name="T:KMI.VBPF1Lib.WorkOfficeSup">
+            <summary>
+            Summary description for WorkOfficeSup.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkOfficeDesk">
+            <summary>
+            Summary description for FastFoodCustomer.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkTask">
+            <summary>
+            Summary description for TravelTask.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Task">
+            <summary>
+            Summary description for Task.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.OneTimeEvent">
+            <summary>
+            Summary description for Exercise.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmLegend">
+            <summary>
+            Summary description for frmLegend.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmLegend.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmLegend.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmLegend.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Custom_Controls.ItemListing">
+            <summary>
+            Summary description for ShoppingItem.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.Custom_Controls.ItemListing.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.Custom_Controls.ItemListing.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.Custom_Controls.ItemListing.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AppConstants">
+            <summary>
+            Summary description for AppConstants.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.A">
+            <summary>
+            This class contains several static properties that
+            act as syntactic shortcuts to important sim variables.
+            </summary>
+        </member>
+        <member name="P:KMI.VBPF1Lib.A.SS">
+            <summary>
+            Shortcut to AppSimSettings.
+            </summary>
+        </member>
+        <member name="P:KMI.VBPF1Lib.A.ST">
+            <summary>
+            Shortcut to AppSimState.
+            </summary>
+        </member>
+        <member name="P:KMI.VBPF1Lib.A.SA">
+            <summary>
+            Shortcut to AppStateAdapter.
+            </summary>
+        </member>
+        <member name="P:KMI.VBPF1Lib.A.I">
+            <summary>
+            Shortcut to the singleton instance of Simulator.
+            </summary>
+        </member>
+        <member name="P:KMI.VBPF1Lib.A.MF">
+            <summary>
+            Shortcut to the singleton instance of the Main Form.
+            </summary>
+        </member>
+        <member name="P:KMI.VBPF1Lib.A.R">
+            <summary>
+            Shortcut to the application's resource handler.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmStudentLoan">
+            <summary>
+            Summary description for frmPayForCar.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmStudentLoan.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmStudentLoan.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmStudentLoan.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmCloseAccount">
+            <summary>
+            Summary description for frmDepositWithdrawCash.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmCloseAccount.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmCloseAccount.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmCloseAccount.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmChooseCharacter">
+            <summary>
+            Summary description for frmChooseCharacter.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmChooseCharacter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmChooseCharacter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmChooseCharacter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AttendClass">
+            <summary>
+            Summary description for FastFoodCustomer.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AppFactory">
+            <summary>
+            Creates app-specific versions of common inherited objects.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppFactory.#ctor">
+            <summary>
+            No-arg constructor.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppFactory.CreateSimState(KMI.Sim.SimSettings,System.Boolean)">
+            <summary>
+            Creates a SimState.
+            </summary>
+            <param name="simSettings">Initialization settings that can be changed in DesignerMode.</param>
+            <param name="multiplayer">True if multiplayer, false otherwise.</param>
+            <returns>A new SimState.</returns>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppFactory.CreateImageTable">
+            <summary>
+            Creates the table of images to use in the application.
+            </summary>
+            <remarks>
+            When developing all images to be used in the program should
+            be added in this method.
+            </remarks>
+            <returns>A SortedList of all the images used in this application,
+            keyed by the name for the image created by the programmer.</returns>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppFactory.CreateViews">
+            <summary>
+            Creates the application's Views.  The developper should
+            explicitly create the Views and return them as a View[]
+            object in this method.
+            </summary>
+            <returns>A View[] object that is the collection of the
+            application's Views.</returns>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppFactory.CreateResource">
+            <summary>
+            Creates the application's Resource handling object.
+            Note: if app level resource paths are bad, will hang!
+            </summary>
+            <returns>The application's Resource handling object.</returns>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppFactory.CreateEntity(KMI.Sim.Player,System.String)">
+            <summary>
+            Creates and returns a new AppEntity for the given Player
+            and entity name.
+            </summary>
+            <param name="player">The Player to own the Entity.</param>
+            <param name="entityName">The Entity's name.</param>
+            <returns>A new AppEntity for the given Player
+            and entity name.</returns>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppFactory.CreateSimStateAdapter">
+            <summary>
+            Creates a new state adapter for the application.
+            </summary>
+            <returns>A new state adapter for the application.</returns>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppFactory.CreateSimSettings">
+            <summary>
+            Creates the application's SimSettings object.
+            </summary>
+            <returns>The application's SimSettings object.</returns>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Sleep">
+            <summary>
+            Summary description for Sleep.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.SavingsAccount">
+            <summary>
+            Summary description for CheckingAccount.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.BankAccount">
+            <summary>
+            Summary description for BankAccount.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Offering">
+            <summary>
+            Summary description for Offering.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmTransportation">
+            <summary>
+            Summary description for frmTransportation.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmTransportation.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmTransportation.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmTransportation.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmPayForCar">
+            <summary>
+            Summary description for frmPayForCar.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmPayForCar.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmPayForCar.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmPayForCar.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Exercise">
+            <summary>
+            Summary description for Exercise.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Classified">
+            <summary>
+            Summary description for Classified.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.Classified.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.Classified.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.Classified.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Bus">
+            <summary>
+            Summary description for Bus.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.TurboMovableActiveObject">
+            <summary>
+            Summary description for TurboMovableActiveObject.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AppStateAdapter">
+            <summary>
+            Used as a "front end" to the application's sim state, this
+            class provides a way to get a chunk of sim state data all at once.
+            This is especially useful for avoiding fine-grained accesses to a 
+            remote sim state.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppStateAdapter.#ctor">
+            <summary>
+            Default Constructor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AppBuildingDrawable">
+            <summary>
+            Summary description for AppBuildingDrawable.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkTravellingSalesman">
+            <summary>
+            Summary description for WorkCounterFastFood.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.TravelByCar">
+            <summary>
+            Summary description for Travel.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.TravelTask">
+            <summary>
+            Summary description for TravelTask.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frm401K">
+            <summary>
+            Summary description for frm401K.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frm401K.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frm401K.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frm401K.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.ComputerDrawable">
+            <summary>
+            Summary description for MailDrawable.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.CheckRegisterEntry">
+            <summary>
+            Summary description for CheckRegisterEntry.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AppEntity">
+            <summary>
+            Entity for this application.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppEntity.Init">
+            <summary>
+            Initializes the app-specific entity. Example accounts set up.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppEntity.NewWeek">
+            <summary>
+            Journal key data for actions journal and scoreboard. Actual data journaled
+            may vary for applications.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppEntity.GetBestHealthInsurance">
+            <summary>
+            Gets the work or personal healthinsurance policy with lowest copay.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmResume">
+            <summary>
+            Summary description for frmResume.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmLoanStatement">
+            <summary>
+            Summary description for frmCreditCardStatement.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmBankStatement">
+            <summary>
+            Summary description for frmBankStatement.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmBankStatement.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmBankStatement.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmBankStatement.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.F1099Int">
+            <summary>
+            Summary description for FW2.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.ITaxForm">
+            <summary>
+            Summary description for ITaxForm.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.DwellingOffer">
+            <summary>
+            Summary description for DwellingOffer.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.FundControl">
+            <summary>
+            Summary description for FundControl.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.FundControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.FundControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.FundControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.CashDrawable">
+            <summary>
+            Summary description for MailDrawable.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.MoneyMarketFund">
+            <summary>
+            Summary description for StockIncome.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Fund">
+            <summary>
+            Summary description for Fund.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Job">
+            <summary>
+            Summary description for Job.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.InvestmentAccount">
+            <summary>
+            Summary description for CheckingAccount.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmPayInCash">
+            <summary>
+            Summary description for frmPayInCash.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmPayInCash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmPayInCash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmPayInCash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmHomeOwnersInsurance">
+            <summary>
+            Summary description for frmRiskManagement.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmHomeOwnersInsurance.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmHomeOwnersInsurance.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmHomeOwnersInsurance.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmHealth2">
+            <summary>
+            Summary description for frmHealth2.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Dance">
+            <summary>
+            Summary description for Exercise.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.BeSick">
+            <summary>
+            Summary description for BeSick.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkHospital3">
+            <summary>
+            Summary description for FastFoodCustomer.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkInvisible">
+            <summary>
+            Summary description for FastFoodCustomer.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.TravelByBus">
+            <summary>
+            Summary description for Travel.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Relax">
+            <summary>
+            Summary description for Relax.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.PurchasableItem">
+            <summary>
+            Summary description for PurchasableItem.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.God">
+            <summary>
+            Summary description for God.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmTransferFunds">
+            <summary>
+            Summary description for frmDepositWithdrawCash.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmTransferFunds.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmTransferFunds.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmTransferFunds.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmTrade">
+            <summary>
+            Summary description for frmTrade.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmTrade.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmTrade.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmTrade.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmJobApplication">
+            <summary>
+            Summary description for frmJobApplication.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmJobApplication.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmJobApplication.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmJobApplication.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmDailyRoutine">
+            <summary>
+            Summary description for frmDailyRoutine.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmDailyRoutine.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmDailyRoutine.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmDailyRoutine.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmCreditReport">
+            <summary>
+            Summary description for frmCreditReport.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmCheckbook">
+            <summary>
+            Summary description for frmCheckbook.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmCheckbook.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmCheckbook.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmCheckbook.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.CityNavDrawable">
+            <summary>
+            Summary description for CityNavDrawable.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Bill">
+            <summary>
+            Summary description for Bill.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkOfficeMgr">
+            <summary>
+            Summary description for WorkOfficeMgr.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkHospital2">
+            <summary>
+            Summary description for FastFoodCustomer.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.InstallmentLoan">
+            <summary>
+            Summary description for InstallmentLoan.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmOpenBankAccount">
+            <summary>
+            Summary description for frmOpenBankAccount.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmOpenBankAccount.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmOpenBankAccount.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmOpenBankAccount.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmMethodOfPay">
+            <summary>
+            Summary description for frmMethodOfPay.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmMethodOfPay.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMethodOfPay.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMethodOfPay.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmChooseEventTime">
+            <summary>
+            Summary description for frmChooseEventTime.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmChooseEventTime.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmChooseEventTime.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmChooseEventTime.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.FastFoodStore">
+            <summary>
+            Summary description for FastFoodStore.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AppBuilding">
+            <summary>
+            Summary description for AppBuilding.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.CheckDrawable">
+            <summary>
+            Summary description for MailDrawable.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Check">
+            <summary>
+            Summary description for Check.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.App">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:KMI.VBPF1Lib.App.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:KMI.VBPF1Lib.App.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkStoreMgrFastFood">
+            <summary>
+            Summary description for WorkMgrFastFood.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkHospital1">
+            <summary>
+            Summary description for FastFoodCustomer.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.TravelByFoot">
+            <summary>
+            Summary description for Travel.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.PaletteDrawable">
+            <summary>
+            Summary description for PaletteDrawable.
+            </summary>
+            Improve: move to engine
+        </member>
+        <member name="T:KMI.VBPF1Lib.InsurancePolicy">
+            <summary>
+            Summary description for InsurancePolicy.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmTaxes">
+            <summary>
+            Summary description for frmTaxes.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmTaxes.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmTaxes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmTaxes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmPayBy">
+            <summary>
+            Summary description for frmPayBy.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmPayBy.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmPayBy.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmPayBy.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmPayBills">
+            <summary>
+            Summary description for frmLicensing.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmPayBills.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmPayBills.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmPayBills.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Course">
+            <summary>
+            Summary description for Course.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmRentersInsurance">
+            <summary>
+            Summary description for frmRiskManagement.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmRentersInsurance.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmRentersInsurance.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmRentersInsurance.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmOnlineBanking">
+            <summary>
+            Summary description for frmOnlineBanking.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmOnlineBanking.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmOnlineBanking.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmOnlineBanking.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmMortgage">
+            <summary>
+            Summary description for frmPayForCar.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmMortgage.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMortgage.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMortgage.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmMessageBoxWithIcon">
+            <summary>
+            Summary description for frmMessageBoxWithIcon.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmMessageBoxWithIcon.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMessageBoxWithIcon.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMessageBoxWithIcon.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmDepositWithdrawCash">
+            <summary>
+            Summary description for frmDepositWithdrawCash.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmDepositWithdrawCash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmDepositWithdrawCash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmDepositWithdrawCash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmCreditCardStatement">
+            <summary>
+            Summary description for frmCreditCardStatement.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Custom_Controls.CardControl">
+            <summary>
+            Summary description for CardControl.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.Custom_Controls.CardControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.Custom_Controls.CardControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.Custom_Controls.CardControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Classroom">
+            <summary>
+            Summary description for Course.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.StockFund">
+            <summary>
+            Summary description for StockIncome.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.RefrigeratorDrawable">
+            <summary>
+            Summary description for MailDrawable.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.RecurringPayment">
+            <summary>
+            Summary description for RecurringPayment.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.JobApplication">
+            <summary>
+            Summary description for JobApplication.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmMultiplayerPlayers">
+            <summary>
+            Summary description for frmMultiplayerPlayers.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmMultiplayerPlayers.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMultiplayerPlayers.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMultiplayerPlayers.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmChangeTask">
+            <summary>
+            Summary description for frmChangeTask.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmChangeTask.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmChangeTask.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmChangeTask.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.ShopFastFood">
+            <summary>
+            Summary description for FastFoodCustomer.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmHealthInsurance">
+            <summary>
+            Summary description for frmRiskManagement.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmHealthInsurance.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmHealthInsurance.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmHealthInsurance.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.DailyRoutine">
+            <summary>
+            Summary description for DailyRoutine.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.CreditCardAccount">
+            <summary>
+            Summary description for CreditCardAccount.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AppSimSettings">
+            <summary>
+            A collection of fields and properpties that alter simulation
+            settings for the application.  These properties can be
+            altered during runtime via reflectiona and a hidden screen that
+            exposes these properties and their values. 
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppSimSettings.#ctor">
+            <summary>
+            Default Constructor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkInternet3">
+            <summary>
+            ECO 5/14/09 Added with HRB refresh.
+            Summary description for WorkInternetSup.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkDrugRep">
+            <summary>
+            Summary description for WorkOfficeSup.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkCounterFastFood">
+            <summary>
+            Summary description for WorkCounterFastFood.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.TaxReturn">
+            <summary>
+            Summary description for TaxReturn.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmSelectCard">
+            <summary>
+            Summary description for frmSelectCard.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmSelectCard.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmSelectCard.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmSelectCard.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmResearchFunds">
+            <summary>
+            Summary description for frmInvesting.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmResearchFunds.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmResearchFunds.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmResearchFunds.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmInvestmentStatement">
+            <summary>
+            Summary description for frmInvestmentStatements.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Eat">
+            <summary>
+            Summary description for Exercise.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.CityView">
+            <summary>
+            An example View for an application.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.CityView.#ctor(System.String,System.Drawing.Bitmap)">
+            <summary>
+            Contructs a new instance of this View with the given name
+            and background image.
+            </summary>
+            <param name="name">The name for this View as it is to
+            appear in the application.</param>
+            <param name="background">The background image to use
+            for this View in the application.</param>
+        </member>
+        <member name="M:KMI.VBPF1Lib.CityView.BuildDrawables(System.Int64,System.Object[])">
+            <summary>
+            Creates and returns a collection of Drawable objects to
+            be drawn to this View.
+            </summary>
+            <returns>A collection of Drawable objects to
+            be drawn to this View.</returns>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AppSimState">
+            <summary>
+            The application specific SimState object, this is the object
+            that gets serialized during a save.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppSimState.#ctor(KMI.Sim.SimSettings,System.Boolean)">
+            <summary>
+            Constructs a new SimState for the application.
+            </summary>
+            <param name="simSettings">The SimSettings object to use
+            for the application's state.</param>
+            <param name="multiplayer">Whether or not this state
+            is for a multiplayer game.</param>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppSimState.Init">
+            <summary>
+            Initializes various aspects of this AppSimState object.
+            </summary>
+            <remarks>
+            This override must call base.Init().
+            </remarks>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkPizzaGuy">
+            <summary>
+            Summary description for WorkOfficeSup.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkInternet2">
+            <summary>
+            ECO 5/14/09 Added with HRB refresh.
+            Summary description for WorkInternetSup.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmMyPortfolio">
+            <summary>
+            Summary description for frmInvesting.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmMyPortfolio.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMyPortfolio.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMyPortfolio.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmMain">
+            <summary>
+            The applications Main Form.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMain.#ctor">
+            <summary>
+            Default Constructor.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMain.#ctor(System.String[],System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Constructs the application's Main Form using the given
+            Icon and arguments.
+            </summary>
+            <param name="args">Arguments to pass to this Form.</param>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMain.ConstructSimulator">
+            <summary>
+            Constructs the application's Simulator.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmMain.mnuReportsActionsJournal_Click(System.Object,System.EventArgs)">
+            <summary>
+            Displays the actions journal for the current entity.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.F1040EZ">
+            <summary>
+            Summary description for F1040EZ.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.RegisterLine">
+            <summary>
+            Summary description for RegisterLine.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.RegisterLine.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.RegisterLine.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.RegisterLine.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Custom_Controls.CheckControl">
+            <summary>
+            Summary description for CheckControl.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.Custom_Controls.CheckControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.Custom_Controls.CheckControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.Custom_Controls.CheckControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.BondFund">
+            <summary>
+            Summary description for StockIncome.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkMgrFastFood">
+            <summary>
+            Summary description for WorkMgrFastFood.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.WorkInternet1">
+            <summary>
+            ECO 5/14/09 Added with HRB refresh.
+            Summary description for WorkInternetSup.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Office">
+            <summary>
+            Summary description for Course.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.FW2">
+            <summary>
+            Summary description for FW2.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmShop">
+            <summary>
+            Summary description for frmShop.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmShop.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmShop.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmShop.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmRetirementStatement">
+            <summary>
+            Summary description for frmInvestmentStatements.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmDepositChecks">
+            <summary>
+            Summary description for frmLicensing.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmDepositChecks.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmDepositChecks.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmDepositChecks.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmAppProvideCash">
+            <summary>
+            Summary description for frmAppProvideCash.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmAppProvideCash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmAppProvideCash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmAppProvideCash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AllocationControl">
+            <summary>
+            Summary description for AllocationControl.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.AllocationControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AllocationControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AllocationControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.CheckingAccount">
+            <summary>
+            Summary description for CheckingAccount.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AccountantsReport">
+            <summary>
+            Summary description for AccountantsReport.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Pedestrian">
+            <summary>
+            Summary description for Car.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Mortgage">
+            <summary>
+            Summary description for Mortgage.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmW4">
+            <summary>
+            Summary description for frmW4.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmW4.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmW4.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmW4.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmTaxTable">
+            <summary>
+            Summary description for frmTaxTable.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmTaxTable.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmTaxTable.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmTaxTable.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmPersonalBalanceSheet">
+            <summary>
+            Summary description for frmPersonalBalanceSheet.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmPersonalBalanceSheet.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmPayStubs">
+            <summary>
+            Summary description for frmPayStubs.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmPayStubs.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmPayStubs.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmPayStubs.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmCreditScore">
+            <summary>
+            Summary description for frmCreditScore.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmCreditScore.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmCreditScore.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmCreditScore.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmAutoInsurance">
+            <summary>
+            Summary description for frmRiskManagement.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.frmAutoInsurance.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmAutoInsurance.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.frmAutoInsurance.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Custom_Controls.RecurringPaymentControl">
+            <summary>
+            Summary description for RecurringPayment.
+            </summary>
+        </member>
+        <member name="F:KMI.VBPF1Lib.Custom_Controls.RecurringPaymentControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.Custom_Controls.RecurringPaymentControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.Custom_Controls.RecurringPaymentControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.BillDrawable">
+            <summary>
+            Summary description for MailDrawable.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.AppCity">
+            <summary>
+            Summary description for AppCity.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.AppCity.GetRandomBuilding(System.Int32,System.Int32,System.Boolean,System.Single,System.Int32)">
+            <summary>
+            Finds a random building within the distance from the street and avenue intersection.
+            If hasn't found one in n tries, returns another one.
+            </summary>
+            <param name="avenue"></param>
+            <param name="street"></param>
+            <param name="distance"></param>
+            <param name="tries"></param>
+            <returns></returns>
+        </member>
+        <member name="T:KMI.VBPF1Lib.VBPFPerson">
+            <summary>
+            Summary description for VBPFPerson.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Transaction">
+            <summary>
+            Summary description for Transaction.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Surprise">
+            <summary>
+            Summary description for Surprise.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.PayStub">
+            <summary>
+            Summary description for PayStub.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.InsideView">
+            <summary>
+            An example View for an application.
+            </summary>
+        </member>
+        <member name="M:KMI.VBPF1Lib.InsideView.#ctor(System.String,System.Drawing.Bitmap)">
+            <summary>
+            Contructs a new instance of this View with the given name
+            and background image.
+            </summary>
+            <param name="name">The name for this View as it is to
+            appear in the application.</param>
+            <param name="background">The background image to use
+            for this View in the application.</param>
+        </member>
+        <member name="T:KMI.VBPF1Lib.frmSnapshot">
+            <summary>
+            Summary description for frmSnapShot.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Dwelling">
+            <summary>
+            Summary description for Dwelling.
+            </summary>
+        </member>
+        <member name="T:KMI.VBPF1Lib.Car">
+            <summary>
+            Summary description for Car.
+            </summary>
+        </member>
+    </members>
+</doc>

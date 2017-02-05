@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D9425FA-0B32-41B3-89EB-9D1AC79FBA88}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>KMI.Biz.City</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="KMI\Biz\City\TrafficDrawable.cs" />
+    <Compile Include="KMI\Biz\City\City.cs" />
+    <Compile Include="KMI\Biz\City\CityBlock.cs" />
+    <Compile Include="KMI\Biz\City\Building.cs" />
+    <Compile Include="KMI\Biz\City\BuildingType.cs" />
+    <Compile Include="KMI\Biz\City\BuildingDrawable.cs" />
+    <Compile Include="KMI\Biz\City\Traffic.cs" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="KMI.Sim.csproj">
+      <Project>{01AACE54-FF78-4B6A-AC27-C2716AC37EC7}</Project>
+      <Name>KMI.Sim</Name>
+    </ProjectReference>
+    <ProjectReference Include="KMI.Utility.csproj">
+      <Project>{59755F55-3543-4928-A3D2-9F0718107092}</Project>
+      <Name>KMI.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

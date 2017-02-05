@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA448EF5-DBAA-47B3-A48B-4B03B9C3A556}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>KMI.Biz</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="KMI\Biz\frmViewComments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Biz\frmAutoGrader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Biz\BizStateAdapter.cs" />
+    <Compile Include="KMI\Biz\ConsultantReport.cs" />
+    <Compile Include="KMI\Biz\ValueComparer.cs" />
+    <Compile Include="KMI\Biz\AmountNamePair.cs" />
+    <Compile Include="KMI\Biz\ConsultantReportSection.cs" />
+    <Compile Include="KMI\Biz\CommentLog.cs" />
+    <Compile Include="KMI\Biz\frmFinancials.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Biz\frmTransferCash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Biz\frmConsultant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Biz\frmVitalSigns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Biz\frmMarketShare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Biz\frmProductReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="KMI.Biz.frmProductReport.resources" />
+    <EmbeddedResource Include="KMI.Biz.frmMarketShare.resources" />
+    <EmbeddedResource Include="KMI.Biz.frmTransferCash.resources" />
+    <EmbeddedResource Include="KMI.Biz.frmAutoGrader.resources" />
+    <EmbeddedResource Include="KMI.Biz.frmVitalSigns.resources" />
+    <EmbeddedResource Include="KMI.Biz.frmConsultant.resources" />
+    <EmbeddedResource Include="KMI.Biz.frmViewComments.resources" />
+    <EmbeddedResource Include="KMI.Biz.frmFinancials.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="KMI.Sim.csproj">
+      <Project>{01AACE54-FF78-4B6A-AC27-C2716AC37EC7}</Project>
+      <Name>KMI.Sim</Name>
+    </ProjectReference>
+    <ProjectReference Include="KMI.Utility.csproj">
+      <Project>{59755F55-3543-4928-A3D2-9F0718107092}</Project>
+      <Name>KMI.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
